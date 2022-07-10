@@ -9,7 +9,9 @@ const Slug = () => {
             <Head>
                 <title>Page {slug}</title>
             </Head>
-            <p>Page {slug}</p>
+            <main>
+                <p>Page {slug}</p>
+            </main>
         </div>
     );
 };
